@@ -1,0 +1,104 @@
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  padding-left: 25%;
+  padding-right: 20px;
+}
+h1 {
+  font-size: 40px;
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+}
+layout {
+  top: 169px;
+  left: 1019px;
+  width: 621px;
+  height: 624px;
+}
+@media (min-width: 768px) {
+  .col-sm-pull-right {
+    float: right;
+  }
+}
+
+.lower {
+  clear: left;
+
+}
+.btn-circle.btn-xl {
+  width: 100px;
+  height: 100px;
+  padding: 13px 18px;
+  border-radius: 60px;
+  font-size: 15px;
+  text-align: center;
+}
+.button {
+  background-color: #FFFFFF;
+  border-color:#EDEDF2;
+  
+}
+@font-face {
+  font-family:Roboto;
+  font-style: normal;
+  font-size:25px;
+  src: url(http://fonts.googleapis.com/css?family=Roboto) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+.text-font {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+.font {
+  font-size: 36px;
+  font: normal normal medium 36px/44px Urbane Rounded;
+  top: 1470px;
+  left: 325px;
+  width: 354px;
+  height: 44px;
+  text-align: left;
+  color: #1D2121;
+  opacity: 1;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.style {
+  color: #5433ff;
+  width:140px;
+  color:white
+}
+.vertical{
+   vertical-align:central;
+}
+.quote {
+  top: 3748px;
+  left: 722px;
+  width: 144px;
+  height: 549px;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+}
+.rect {
+  top: 4968px;
+  left: 0px;
+  width: 1920px;
+  height: 901px;
+}
